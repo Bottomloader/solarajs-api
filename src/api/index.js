@@ -2,10 +2,11 @@ export default function handler(req, res) {
   const { functionname } = req.query;
 
   const functions = {
-    hi: () => ({
-      a: "hi",
-      data: {
-        idk: "test"
+    applicationCommandCount: () => ({
+      info: {
+        name: "$applicationCommandCount",
+        description: "Returns the number of registered global slash commands.",
+        args: "none"
       }
     }),
   };
