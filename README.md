@@ -17,7 +17,14 @@ Returns info about a function.
 ```
 
 #### GET ?about
-Under works
+Returns more about the package.
+
+**Example:**
+`https://solarajs-api.vercel.app/api/about` will return
+```
+{"info":{"name":"Solara.js","version":"0.0.1"}}
+```
+*This example is probably outdated!*
 
 ---
 Contributions (pull requests) are **not welcome**. This is a personal work of myself and I will never accept prs.
