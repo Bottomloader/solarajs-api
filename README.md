@@ -1,11 +1,13 @@
-# solarajs-api<br>
-**Endpoint:**<br>
+# solarajs-api<
+---
+
+## Endpoint
 The base url is
 ```
 https://solarajs-api.vercel.app/api
 ```
 
-GET ?functionname=<br>
+#### GET ?functionname=
 Returns info about a function.
 
 **Example:**<br>
@@ -14,7 +16,7 @@ Returns info about a function.
 {"info":{"name":"$clientID","description":"Returns the bot's user ID.","args":"none","alias":"$botID"}}
 ```
 
-GET ?about<br>
+#### GET ?about
 Under works
 
 ---
