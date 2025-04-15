@@ -19,7 +19,7 @@ Returns info about a function.
 #### GET ?about
 Returns more about the package.
 
-**Example:**
+**Example:**<br>
 `https://solarajs-api.vercel.app/api/about` will return
 ```
 {"info":{"name":"Solara.js","version":"0.0.1"}}
