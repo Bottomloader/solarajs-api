@@ -1,4 +1,4 @@
-# solarajs-api<
+# solarajs-api
 ---
 
 ## Endpoint
