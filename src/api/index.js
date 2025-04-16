@@ -153,6 +153,9 @@ export default function handler(req, res) {
     }),
   };
 
+  if (functionname == null || functionname == "") {
+    return res.status(400).send("Missing function name parameter.");
+  }
   if (functions[functionname.toLowerCase()]) {
     res.status(200).json(functions[functionname.toLowerCase()]());
   } else {
