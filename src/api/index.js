@@ -25,7 +25,7 @@ export default function handler(req, res) {
   const { functionname } = req.query;
 
   if (!functionname) {
-    return res.status(400).send("Missing function name parameter.");
+    return res.status(400).json({ error: "Missing arguments" });
   }
 
   const func = functions[functionname.toLowerCase()];
