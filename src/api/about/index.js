@@ -27,6 +27,7 @@ export default async function handler(req, res) {
     info: {
       name: "Solara.js",
       version: latest,
+      docs: "https://solara.js.org/",
     },
   });
 }
