@@ -32,6 +32,6 @@ export default function handler(req, res) {
   if (func) {
     res.status(200).json({ message: true });
   } else {
-    res.status(404).json({ message: false });
+    res.status(200).json({ message: false });
   }
 }
