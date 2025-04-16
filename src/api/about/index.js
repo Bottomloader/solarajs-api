@@ -23,11 +23,5 @@ export default async function handler(req, res) {
   const response = await fetch("https://registry.npmjs.org/@getsolara/solara.js");
   const { 'dist-tags': { latest } } = await response.json();
 
-  res.status(200).json({
-    info: {
-      name: "Solara.js",
-      version: latest,
-      docs: "https://solara.js.org/",
-    },
-  });
+  res.status(200).json({ info: { name: "Solara.js", version: latest, docs: "https://solara.js.org/", }, });
 }
